@@ -1,0 +1,50 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  list-style: none; /* Убираем точки у списка */
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center; /* Вертикальное выравнивание иконок и текста */
+  margin-bottom: 5px; /* Расстояние между строками */
+}
+
+.icon {
+  margin-right: 10px;
+  color: #555; /* Цвет иконок */
+}
+
+.contactName, .contactNumber {
+  margin: 0;
+  font-size: 16px;
+}
+
+.contactNumber {
+  font-size: 14px;
+}
+
+.deleteButton {
+  background-color: transparent; /* Цвет кнопки по умолчанию */
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteButton:hover {
+  background-color: #f0f0f0; /* Цвет фона при наведении */
+}
